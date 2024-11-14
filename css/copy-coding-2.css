@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+.copy-coding-2 {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.introduction img {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px;
+}
+
+.introduction {
+    display: flex;
+    margin-top: 20px;
+}
+
+.introduction dt dd {
+    width: 100%;
+}
+
+
+/*
+.copy-coding-2 dt {
+    /左に寄せる/
+    float: left ;
+    /後続の左寄せを解除/
+    clear: left ;
+    margin-right: 0.5em ;
+    width: 120px ;
+}
+
+.copy-coding-2 dd {
+    float: left ;
+    margin-left: 1em ;
+}*/

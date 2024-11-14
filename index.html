@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+
 </head>
 <body>
     <!-- Header with navigation -->
@@ -22,7 +25,18 @@
     <!-- About Section -->
     <section id="about">
         <h2>About Me</h2>
-        <p>柔らかく優しいトーンで自己紹介のテキストを書きましょう。</p>
+        <p>
+            大阪生まれ、大阪育ち。<br>
+            大学では英語やビジネス、貿易事務を学んでいました。<br>
+            結婚・子育て中にも、EC立ち上げや翻訳など、様々なパート勤務に従事。<br>
+            ここ10年はIT企業にてPM含むバックオフィス全般を、フルリモートで。
+            豊富な社会人経験と蓄積された知識を活かして、ウェブ制作者への道を歩きだしました。<br>
+        </p>
+        <div class="sns">   
+            <a href="https://twitter.com/katsudon_mama"><img src="./img/logo-x.png"></a>
+            <img src="./img/logo-x.png">
+            <img src="./img/logo-x.png">
+        </div>
     </section>
 
     <!-- Portfolio Section -->
@@ -53,5 +67,20 @@
             <button type="submit">Send</button>
         </form>
     </section>
+
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script>
+        $('.slider').slick({
+            autoplay: true,         //自動再生
+            autoplaySpeed: 0,       //自動再生のスピード
+            speed: 2500,            //スライドスピード
+            slidesToShow: 3,        //スライドの表示枚数
+            cssEase: "linear",      //スライドの動きを等速に
+            pauseOnHover: false,    //ホバーしても止まらないように
+            pauseOnFocus: false,    //フォーカスしても止まらないように
+        });
+    </script>
 </body>
 </html>
