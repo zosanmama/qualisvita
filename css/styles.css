@@ -53,6 +53,10 @@ h2 {
     margin-bottom: 10px;
 }
 
+#about, #contact p {
+    font-size: small;
+}
+
 .sns {
     display: flex;
     margin-top: 30px;
@@ -63,6 +67,11 @@ h2 {
 .sns img {
     height: 30px;
     margin-right: 20px;
+}
+
+#logo-x {
+    height: 25px;
+    margin-right: 15px;
 }
 
 .sns img:hover {
@@ -89,10 +98,6 @@ h2 {
 .work img {
     width: 180px;
     border-radius: 10px;
-}
-
-.work-image {
-    width:
 }
 
 a.no-color-change:link,
