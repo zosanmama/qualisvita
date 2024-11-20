@@ -76,23 +76,28 @@ h2 {
     flex-wrap: wrap;
 }
 
-.gallery img {
-    width: 150px;
-}
-
 .work {
-    flex: 1 1 30%;
-    height: 150px;
-    background-color: #f1d4d4;
-    border-radius: 10px;
-    display: flex;
+    /*
+    flex: 1 1 30%; */
+    height: 180px;
     align-items: center;
-    justify-content: center;
-    color: #fff;
+    justify-content: center;     
+    list-style-type: none;
+    padding: 20px;
 }
 
-.work h4 {
+.work img {
+    width: 180px;
+    border-radius: 10px;
+}
+
+a.no-color-change:link,
+a.no-color-change:visited,
+a.no-color-change:hover,
+a.no-color-change:active {
+    color: #b8376d;
     text-decoration: none;
+    
 }
 
 /* Contact Form */
