@@ -41,7 +41,7 @@ header nav ul li a {
 }
 
 /* About Section */
-#about, #portfolio, #contact {
+#about, #portfolio, #other-side, #contact {
     margin-bottom: 40px;
     padding: 20px;
     background-color: #ffffff;
